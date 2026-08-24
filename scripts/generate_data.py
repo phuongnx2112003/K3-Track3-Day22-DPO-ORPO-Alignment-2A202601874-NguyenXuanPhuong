@@ -1,10 +1,12 @@
 from __future__ import annotations
+
 import json
 import os
 from pathlib import Path
+
 import typer
-from rich import print
 from openai import OpenAI
+from rich import print
 
 app = typer.Typer(help="Synthetic Data Generation for Preference Alignment")
 
